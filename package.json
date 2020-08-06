@@ -1,12 +1,12 @@
 {
   "name": "lgianotti-electron-update",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Leandro Gianotti",
   "scripts": {
     "start": "electron .",
-    "publish": "build --win -p always"
+    "publish": "electron-builder build --win -p always"
   },
   "devDependencies": {
     "electron": "^3.0.2",
